@@ -8,3 +8,4 @@ matplotlib
 openpyxl
 gtts
 SpeechRecognition
+streamlit-autorefresh
