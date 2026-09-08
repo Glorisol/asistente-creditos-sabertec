@@ -3,6 +3,12 @@ from gtts import gTTS
 import os
 import re
 import speech_recognition as sr
+import streamlit as st
+from streamlit_autorefresh import st_autorefresh
+
+# Refresca la aplicación cada 10 minutos (600,000 milisegundos)
+# Esto mantiene la sesión de Python viva
+st_autorefresh(interval=600000, limit=None, key="mantenimiento_activo")
 from google import genai
 from google.genai import types
 
