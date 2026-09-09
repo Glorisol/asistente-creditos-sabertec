@@ -12,7 +12,7 @@ st_autorefresh(interval=600000, limit=None, key="mantenimiento_activo")
 from google import genai
 from google.genai import types
 
-client = genai.Client(api_key="AQ.Ab8RN6IUOt9i9LBbRCzCU8HgofR2eGgHcWs0ktg-I42ZWPYrZg")
+client = genai.Client(api_key="PEGA_AQUI_TU_VERDADERA_CLAVE")
 
 st.set_page_config(
     page_title="Asistente de Créditos | Sabertec B2B",
